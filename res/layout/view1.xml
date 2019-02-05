@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <SearchView
+        android:id="@+id/searchview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CDCDC1"
+        android:iconifiedByDefault="false"
+        android:queryHint="请输入搜索商品" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fff" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.example.qr_codescan.view.MyMapView
+            android:id="@+id/myMapView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFF" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="52dp" >
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="220dp"
+                    android:layout_height="45dp"
+                    android:alpha="0.5"
+                    android:background="@drawable/btn_angle_normal_bg"
+                    android:onClick="button1"
+                    android:text="货架1"
+                    android:textColor="@drawable/text_color_selector" />
+
+                <TextView android:layout_width="20dp" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="220dp"
+                    android:layout_height="45dp"
+                    android:alpha="0.5"
+                    android:background="@drawable/btn_angle_normal_bg"
+                    android:onClick="button2"
+                    android:text="货架2"
+                    android:textColor="@drawable/text_color_selector" />
+            </TableRow>
+
+            <TextView android:layout_width="10dp" />
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="220dp"
+                    android:layout_height="45dp"
+                    android:alpha="0.5"
+                    android:background="@drawable/btn_angle_normal_bg"
+                    android:onClick="button3"
+                    android:text="货架3"
+                    android:textColor="@drawable/text_color_selector" />
+
+                <TextView android:layout_width="20dp" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="220dp"
+                    android:layout_height="45dp"
+                    android:alpha="0.5"
+                    android:background="@drawable/btn_angle_normal_bg"
+                    android:onClick="button4"
+                    android:text="货架4"
+                    android:textColor="@drawable/text_color_selector" />
+            </TableRow>
+
+            <TextView android:layout_width="10dp" />
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="220dp"
+                    android:layout_height="45dp"
+                    android:alpha="0.5"
+                    android:background="@drawable/btn_angle_normal_bg"
+                    android:onClick="button5"
+                    android:text="货架5"
+                    android:textColor="@drawable/text_color_selector" />
+
+                <TextView android:layout_width="20dp" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="220dp"
+                    android:layout_height="45dp"
+                    android:alpha="0.5"
+                    android:background="@drawable/btn_angle_normal_bg"
+                    android:onClick="button6"
+                    android:text="货架6"
+                    android:textColor="@drawable/text_color_selector" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+
+</LinearLayout>
